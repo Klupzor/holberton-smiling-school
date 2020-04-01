@@ -2,6 +2,13 @@ body {
   font-family: "Source Sans Pro";
 }
 
+.btn {
+  background-color: #C271FF;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 38px;
+}
+
 .homepage {
   background-image: url("./images/pic_1.jpg");
   background-size: cover;
@@ -64,13 +71,6 @@ body {
   font-size: 16px;
   max-width: 240px;
   margin: 0 auto;
-}
-
-.homepage .btn {
-  background-color: #C271FF;
-  color: #FFFFFF;
-  font-size: 14px;
-  margin-top: 38px;
 }
 
 .homepage h2 {
@@ -394,5 +394,57 @@ body {
     display: block;
     visibility: visible;
   }
+}
+
+.membership-section {
+  background-color: #071629;
+  color: #FFFFFF;
+}
+
+.membership-section h2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+.membership-section h2 span {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.membership-section .memberships {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 58px 0 47px 0;
+}
+
+.membership-section .memberships .card {
+  max-width: 150px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.membership-section .memberships .card img {
+  height: 36px;
+  width: 45px;
+  margin: 0 auto;
+}
+
+.membership-section .memberships .card .card-body {
+  padding: 10px 0 0 0;
+}
+
+.membership-section .memberships .card .card-body .card-title {
+  font-size: 18px;
+}
+
+.membership-section .memberships .card .card-body .card-text {
+  font-style: italic;
+  font-size: 16px;
+}
+
+.membership-section .btn {
+  margin-bottom: 52px;
 }
 /*# sourceMappingURL=styles.css.map */
