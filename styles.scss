@@ -1,0 +1,112 @@
+$purple: #C271FF;
+$white: #FFFFFF;
+$dark: #071629;
+$font: 'Source Sans Pro';
+$color-transparent: rgba(0,0,0,0);
+$size-tablet: 768px;
+$size-mobile: 576px;
+
+body{
+    font-family: $font;
+}
+
+.homepage {
+    background-image: url("./images/pic_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: $dark;
+    .navbar {
+        padding: 35px 0;
+        .navbar-brand {
+            width: 168px;
+            margin: 0 auto;
+        }
+        .logo {
+            margin-left: 11px;
+        }
+        .navbar-nav {
+            width: 236px;
+            justify-content: space-between;
+        }
+        .nav-item{
+            font-weight: bold;
+            font-size: 12px;
+            color: $white;
+        }
+        .navbar-toggler {
+            border: none;
+            .navbar-toggler-icon{
+                background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+            }
+        }
+    }
+    h1 {
+        font-size: 120px;
+        font-weight: bold;
+        color: $white;
+        text-align: center;
+        margin-top: 120px;
+    }
+    .description{
+        display: flex;
+        justify-content: space-between;
+        color: $white;
+        font-weight: bold;
+        font-size: 16px;
+        max-width: 240px;
+        margin: 0 auto;
+    }
+
+    .btn {
+        background-color: $purple;
+        color: $white;
+        font-size: 14px;
+        margin-top: 38px;
+    }
+
+    h2 {
+        color: $white;
+        text-align: center;
+        margin-top: 168px;
+        span {
+            color: $purple;
+            font-weight: bold;
+        }
+    }
+
+    .card-deck {
+        margin-top: 87px;
+        padding-bottom: 98px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        .card {
+            margin: 10px;
+            max-width: 150px;
+            background-color: $color-transparent;
+            color: $white;
+            border: none;
+            .card-body{
+                padding: 10px 0 0 0;
+                .card-title{
+                    font-size: 18px;
+                }
+                .card-text{
+                    font-style: italic;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: $size-mobile) {
+    .homepage {
+        background-size: auto;
+        background-position: 50% 0;
+        h1 {
+            font-size: 61px;
+        }
+    }
+}

@@ -1,0 +1,129 @@
+body {
+  font-family: "Source Sans Pro";
+}
+
+.homepage {
+  background-image: url("./images/pic_1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #071629;
+}
+
+.homepage .navbar {
+  padding: 35px 0;
+}
+
+.homepage .navbar .navbar-brand {
+  width: 168px;
+  margin: 0 auto;
+}
+
+.homepage .navbar .logo {
+  margin-left: 11px;
+}
+
+.homepage .navbar .navbar-nav {
+  width: 236px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.homepage .navbar .nav-item {
+  font-weight: bold;
+  font-size: 12px;
+  color: #FFFFFF;
+}
+
+.homepage .navbar .navbar-toggler {
+  border: none;
+}
+
+.homepage .navbar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.homepage h1 {
+  font-size: 120px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.homepage .description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+  max-width: 240px;
+  margin: 0 auto;
+}
+
+.homepage .btn {
+  background-color: #C271FF;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin-top: 38px;
+}
+
+.homepage h2 {
+  color: #FFFFFF;
+  text-align: center;
+  margin-top: 168px;
+}
+
+.homepage h2 span {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.homepage .card-deck {
+  margin-top: 87px;
+  padding-bottom: 98px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.homepage .card-deck .card {
+  margin: 10px;
+  max-width: 150px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #FFFFFF;
+  border: none;
+}
+
+.homepage .card-deck .card .card-body {
+  padding: 10px 0 0 0;
+}
+
+.homepage .card-deck .card .card-body .card-title {
+  font-size: 18px;
+}
+
+.homepage .card-deck .card .card-body .card-text {
+  font-style: italic;
+  font-size: 16px;
+}
+
+@media (max-width: 576px) {
+  .homepage {
+    background-size: auto;
+    background-position: 50% 0;
+  }
+  .homepage h1 {
+    font-size: 61px;
+  }
+}
+/*# sourceMappingURL=styles.css.map */
