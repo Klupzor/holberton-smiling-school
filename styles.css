@@ -447,4 +447,33 @@ body {
 .membership-section .btn {
   margin-bottom: 52px;
 }
+
+footer {
+  background-color: #071629;
+  color: #FFFFFF;
+  border-top: 1px solid #FFFFFF;
+}
+
+footer .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 95px;
+  margin-bottom: 70px;
+}
+
+footer .footer .logo {
+  margin-left: 18px;
+}
+
+footer .footer .social-media svg {
+  margin-left: 20px;
+}
 /*# sourceMappingURL=styles.css.map */

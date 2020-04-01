@@ -383,3 +383,26 @@ body{
         margin-bottom: 52px;
     }
 }
+
+footer {
+    background-color: $dark;
+    color: $white;
+    border-top: 1px solid $white;
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-top: 95px;
+        margin-bottom: 70px;
+        .logo {
+            margin-left: 18px;
+        }
+        .social-media{
+            svg {
+                margin-left: 20px;
+
+            }
+        }
+    }
+}
