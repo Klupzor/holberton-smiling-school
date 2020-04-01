@@ -126,4 +126,32 @@ body {
     font-size: 61px;
   }
 }
+
+.carousel {
+  background-color: #C271FF;
+}
+
+.carousel .carousel-inner {
+  padding-top: 108px;
+  padding-bottom: 124px;
+}
+
+.carousel .card {
+  background-color: #C271FF;
+  font-size: 22px;
+  max-width: 943px;
+  margin: 0 auto;
+  color: white;
+  border: none;
+}
+
+.carousel .card img {
+  height: 160px;
+  width: 160px;
+  margin: 0 auto;
+}
+
+.carousel .card .card-title {
+  font-weight: bold;
+}
 /*# sourceMappingURL=styles.css.map */

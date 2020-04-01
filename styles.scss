@@ -110,3 +110,27 @@ body{
         }
     }
 }
+
+.carousel {
+    background-color: $purple;
+    .carousel-inner {
+        padding-top: 108px;
+        padding-bottom: 124px;
+    }
+    .card {
+        background-color: $purple;
+        font-size: 22px;
+        max-width: 943px;
+        margin: 0 auto;
+        color: white;
+        border: none;
+        img {
+            height: 160px;
+            width: 160px;
+            margin: 0 auto;
+        }
+        .card-title {
+            font-weight: bold;
+        }
+    }
+}
