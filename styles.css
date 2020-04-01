@@ -140,6 +140,7 @@ body {
   background-color: #C271FF;
   font-size: 22px;
   max-width: 943px;
+  width: 80%;
   margin: 0 auto;
   color: white;
   border: none;
@@ -153,5 +154,21 @@ body {
 
 .carousel .card .card-title {
   font-weight: bold;
+}
+
+.carousel .carousel-control-prev-icon {
+  background-image: url("./images/arrow_white_left.png");
+  height: 63px;
+}
+
+.carousel .carousel-control-next-icon {
+  background-image: url("./images/arrow_white_right.png");
+  height: 63px;
+}
+
+@media (max-width: 576px) {
+  .carousel .carousel-control-next, .carousel .carousel-control-prev {
+    bottom: 40%;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
